@@ -1,0 +1,12 @@
+{
+  "name": "tok",
+  "version": "1.0.0",
+  "description": "A compact Pomodoro-style timer with desktop notifications that runs in the browser.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
