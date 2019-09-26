@@ -4,13 +4,16 @@
   "description": "A compact Pomodoro-style timer with desktop notifications that runs in the browser.",
   "private": true,
   "scripts": {
-    "serve": "./node_modules/.bin/serve",
+    "build": "./node_modules/.bin/webpack --mode=production",
+    "serve": "./node_modules/.bin/serve dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^11.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
