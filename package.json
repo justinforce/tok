@@ -4,9 +4,10 @@
   "description": "A compact Pomodoro-style timer with desktop notifications that runs in the browser.",
   "private": true,
   "scripts": {
-    "build": "./node_modules/.bin/webpack --mode=production",
-    "serve": "./node_modules/.bin/serve dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode=development --content-base=dist --watch --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "serve": "serve dist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "serve": "^11.2.0",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   }
 }
